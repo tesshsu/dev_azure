@@ -1,0 +1,28 @@
+{
+  "name": "azuredev-appservice",
+  "version": "1.0.0",
+  "description": "This repository is for practicing deployment to Azure App Service. It starts with a simple static web app and will later include a Node.js Express API for CI/CD practice.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tesshsu/AzureDev-AppService.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tesshsu/AzureDev-AppService/issues"
+  },
+  "homepage": "https://github.com/tesshsu/AzureDev-AppService#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "kafkajs": "^2.2.4",
+    "prom-client": "^15.1.3",
+    "yahoo-finance2": "^2.13.3"
+  }
+}
